@@ -90,3 +90,7 @@ btnHold.addEventListener('click', function () {
   }
 });
 
+// Restart game
+btnNew.addEventListener('click', function () {
+  init();
+});
